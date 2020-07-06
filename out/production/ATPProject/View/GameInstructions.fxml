@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox>
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Welcom to Tom&amp;Jerry Game!" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="In this Game Tom need to find Jerry in the maze :-) " />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Use the following keys to control Tom's movements:" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="1 - Down &amp; Left" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="2 - Down" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="3 - Down &amp; Right" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="4 - Left" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="6 - Right" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="7 - Up &amp; Left" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="8 - Up" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="9 - Up &amp; Right" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HOME - return to start position" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Now you can play !" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

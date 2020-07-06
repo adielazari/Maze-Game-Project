@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Settings">
+   <children>
+      <VBox>
+         <children>
+            <Text fx:id="textDes" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="146.13671875" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+            <CheckBox fx:id="VolumeMute" mnemonicParsing="false" onAction="#VolumeMute" text="Volume Mute" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+            <HBox>
+                <children>
+                    <Label text="Maze Generating Algorithm : " />
+                    <ChoiceBox fx:id="MazeGenerator" prefHeight="25.0" prefWidth="210.0">
+                        <items>
+                            <FXCollections fx:factory="observableArrayList">
+                                <String fx:value="Empty Maze Generator" />
+                                <String fx:value="Simple Maze Generator" />
+                                <String fx:value="My Maze Generator" />
+                            </FXCollections>
+                        </items>
+                        <value> </value>
+                    </ChoiceBox>
+                </children>
+            </HBox>
+             <HBox alignment="CENTER">
+                 <children>
+                     <Label text="Maze Searching Algorithm : " />
+                     <ChoiceBox fx:id="SearcherName" prefHeight="25.0" prefWidth="215.0">
+                         <items>
+                             <FXCollections fx:factory="observableArrayList">
+                                 <String fx:value="Breadth First Search" />
+                                 <String fx:value="Depth First Search" />
+                                 <String fx:value="Best First Search" />
+                             </FXCollections>
+                         </items>
+                     </ChoiceBox>
+                 </children>
+             </HBox>
+            <Button mnemonicParsing="false" onAction="#ApplySearchers" text="Apply " />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Set default maze size:" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Number of rows:" />
+            <TextField fx:id="columnsNum" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Number of columns:" />
+            <TextField fx:id="rowsNum" />
+            <Button mnemonicParsing="false" onAction="#ApplyChanges" text="Apply " />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="backSCR" maxHeight="400.0" maxWidth="500.0" prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.HomeScreenController">
+   <children>
+      <BorderPane layoutX="-14.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <AnchorPane id="backColor" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label id="TOM" layoutX="20.0" layoutY="36.0" text="Tom &amp; Jerry" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Italic" size="36.0" />
+                     </font>
+                  </Label>
+                   <Button id="LoadGame" layoutX="190.0" layoutY="240.0" mnemonicParsing="false" onAction="#loadGame" prefHeight="32.0" prefWidth="125.0" styleClass="root" text="Load Game" />
+                  <Button id="StartNewGame" layoutX="126.0" layoutY="180.0" mnemonicParsing="false" onAction="#enterMazeSize" prefHeight="25.0" prefWidth="250.0" text="Start Play" />
+               </children>
+            </AnchorPane>
+         </center>
+         <top>
+            <MenuBar>
+               <menus>
+                     <Menu mnemonicParsing="false" text="File">
+                        <items>
+                           <MenuItem disable="false" mnemonicParsing="false" onAction="#newGame" text="New" />
+                           <MenuItem disable="true" mnemonicParsing="false" text="Save" />
+                           <MenuItem mnemonicParsing="false" onAction="#loadGame" text="Load" />
+                        </items>
+                     </Menu>
+                     <Menu mnemonicParsing="false" text="Options">
+                        <items>
+                           <MenuItem mnemonicParsing="false" onAction="#Properties" text="Properties" />
+                        </items>
+                     </Menu>
+                  <Menu mnemonicParsing="false" text="Exit">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#Exit" text="Exit" />
+                    </items>
+                  </Menu>
+                     <Menu mnemonicParsing="false" text="Help">
+                        <items>
+                           <MenuItem mnemonicParsing="false" onAction="#GameInstruction" text="Game Instructions" />
+                        </items>
+                     </Menu>
+                     <Menu mnemonicParsing="false" onAction="#About" text="About">
+                        <items>
+                           <MenuItem mnemonicParsing="false" text="About" />
+                        </items>
+                     </Menu>
+               </menus>
+            </MenuBar>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>

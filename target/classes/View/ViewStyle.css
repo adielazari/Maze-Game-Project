@@ -1,0 +1,50 @@
+.root{
+    -fx-background-color: linear-gradient(#1df454, #00e1f3);
+}
+
+Button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-font-size: 16;
+    -fx-alignment: center;
+    -fx-background-color: transparent;
+}
+
+Button:hover{
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    -fx-text-fill:  #b11542;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+    -fx-background-color: transparent;
+}
+ToolBar{
+    -fx-background-color: #5db191;
+}
+#createMazeButton{
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-font-size: 16;
+    -fx-background-color: linear-gradient(#b19886, #bd7488);
+    -fx-alignment: center;
+}
+#createMazeButton:hover{
+    -fx-background-color: #b11542;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    -fx-text-fill: -fx-text-base-color;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+MenuBar{
+    -fx-background-color: transparent;
+}
+MenuBar:hover{
+
+    -fx-background-color: #5db191;
+}

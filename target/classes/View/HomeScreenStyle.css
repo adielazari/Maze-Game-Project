@@ -1,0 +1,82 @@
+.root{
+    -fx-background-color: linear-gradient(#1df454, #00e1f3);
+
+}
+/*Button {*/
+    /*-fx-text-fill: white;*/
+    /*-fx-font-family: "Arial Narrow";*/
+    /*-fx-font-weight: bold;*/
+    /*-fx-font-size: 16;*/
+    /*-fx-background-color: linear-gradient(#61a2b1, #2A5058);*/
+    /*-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );*/
+/*}*/
+#TOM{
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-size: 80;
+    background-repeat: no-repeat;
+    -fx-alignment: center;
+
+}
+#LoadGame{
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-font-size: 16;
+    -fx-background-color: linear-gradient(#b19886, #bd7488);
+    -fx-alignment: center;
+}
+#StartNewGame {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-font-size: 22;
+    -fx-background-color: linear-gradient(#7000b1, #900b39);
+    -fx-alignment: center;
+}
+#StartNewGame:hover{
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-font-size: 22;
+    -fx-background-color: #1d901e;
+}
+#LoadGame:hover{
+    -fx-background-color: #00e1f3;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    -fx-text-fill: -fx-text-base-color;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+Button{
+    -fx-text-fill: white;
+    -fx-font-size: 18;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+}
+Button:hover{
+    -fx-text-fill: #c200fe;
+}
+MenuBar{
+    -fx-background-color: transparent;
+}
+MenuBar:hover{
+
+    -fx-background-color: #5db191;
+}
+Text{
+    -fx-text-fill: white;
+    -fx-font-size: 18;
+}
+CheckBox{
+    -fx-font-size: 18;
+}
+Label{
+    -fx-font-size: 16;
+}
+#textDes{
+    -fx-text-fill: white;
+    -fx-font-size: 14;
+}

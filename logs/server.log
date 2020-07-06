@@ -1,0 +1,22 @@
+2019.06.16 22:49:58.348 INFO  Model.MyModel - The client start generate..
+2019.06.16 22:49:58.352 INFO  Model.MyModel - Maze: row - 6, column - 6
+2019.06.16 22:49:58.360 INFO  Model.MyModel - The start position is: {0,1}
+2019.06.16 22:49:58.361 INFO  Model.MyModel - The goal position is: {1,5}
+2019.06.16 22:50:14.212 INFO  Model.MyModel - The client start generate..
+2019.06.16 22:50:14.216 INFO  Model.MyModel - Maze: row - 10, column - 10
+2019.06.16 22:50:14.220 INFO  Model.MyModel - The start position is: {3,5}
+2019.06.16 22:50:14.221 INFO  Model.MyModel - The goal position is: {9,8}
+2019.06.16 22:50:17.358 INFO  Model.MyModel - The client start generate..
+2019.06.16 22:50:17.359 INFO  Model.MyModel - Maze: row - 6, column - 6
+2019.06.16 22:50:17.370 INFO  Model.MyModel - The start position is: {0,1}
+2019.06.16 22:50:17.370 INFO  Model.MyModel - The goal position is: {1,5}
+2019.06.16 22:50:24.776 INFO  Model.MyModel - The client reqiure solution..
+2019.06.16 22:50:26.028 INFO  Model.MyModel - num steps is: 11
+2020.07.06 09:44:07.644 INFO  Model.MyModel - The client start generate..
+2020.07.06 09:44:07.656 INFO  Model.MyModel - Maze: row - 10, column - 10
+2020.07.06 09:44:07.708 INFO  Model.MyModel - The start position is: {4,7}
+2020.07.06 09:44:07.708 INFO  Model.MyModel - The goal position is: {9,1}
+2020.07.06 10:08:48.232 INFO  Model.MyModel - The client start generate..
+2020.07.06 10:08:48.238 INFO  Model.MyModel - Maze: row - 10, column - 10
+2020.07.06 10:08:48.250 INFO  Model.MyModel - The start position is: {8,4}
+2020.07.06 10:08:48.250 INFO  Model.MyModel - The goal position is: {6,8}
